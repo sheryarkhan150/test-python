@@ -1,0 +1,25 @@
+fruits = ["Apple","Banana","Cherry"]
+""""""
+for x in fruits:
+    print(x)
+
+for x in "banana":
+    print(x)
+
+for x in fruits:
+    print(x)
+    if x == "Banana":
+        break
+
+for x in fruits:
+    if x == "Banana":
+        break
+    print(x)
+
+for x in fruits:
+    if x == "Banana":
+        continue
+    print(x)
+
+for x in range(6):
+    print(x)
