@@ -9,10 +9,16 @@ while j < 6:
     if j == 3:
         break
     j += 1
-"""""
+
 k = 1
 while k < 6:
     k += 1
     if k == 3:
         continue
-        print(k)
+        print(k)"""""
+
+
+u = a
+while u <= 10:
+    print(u)
+    u += 1
